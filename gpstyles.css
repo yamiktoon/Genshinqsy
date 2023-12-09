@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: Orange;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    justify-content: space-between;
+    padding-right: 15px;
+    flex-direction: row-reverse;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#charDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 7px;
+}
+
+#characters {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+#characters a {
+    width: 3.5cm;
+    height: 3.5cm;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+.anemo {
+    background-color: rgb(62,159,133);
+    border: 7px solid rgb(36,87,75);
+}
+
+.hydro {
+    background-color: rgb(135,206,235);
+    border: 7px solid rgb(69,179,224);
+}
+
+.geo {
+    background-color: rgb(241, 193, 50);
+    border: 7px solid rgb(216, 173, 44);
+}
+
+.electro {
+    background-color: rgb(135,46,135);
+    border: 7px solid rgb(113,25,113);
+}
+
+.dendro {
+    background-color: rgb(85,147,105);
+    border: 7px solid rgb(57,124,83);
+}
+
+.mondstadtChar {
+    background-color: rgb(62,159,133);
+    border: 7px solid rgb(36,87,75);
+}
+
+.fontaineChar {
+    background-color: rgb(135,206,235);
+    border: 7px solid rgb(69,179,224);
+}
+
+.charName {
+    color: black;
+    padding-top: 7px;
+}
